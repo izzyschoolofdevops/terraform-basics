@@ -3,5 +3,5 @@ output "sample" {
 }
 
 output "sample" {
-    value ="this is a demo output"
+    value ="this is the demo"
 }
