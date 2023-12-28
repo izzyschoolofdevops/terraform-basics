@@ -44,9 +44,9 @@ output"example_List_op"{
 
 variable "training_map"{
     default = {
-        batch = "b56"
-        mode  = "online"
-        trainig  ="devopswithaws"
+        batch    = "b56"
+        mode     = "online"
+        training  ="devopswithaws"
 
     }
 
