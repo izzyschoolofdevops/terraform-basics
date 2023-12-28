@@ -66,3 +66,9 @@ output "training_map_op"{
    output "city_name"{
       value = var.city
    }
+
+   variable "state" {}
+
+   output "state_name"{
+      value = var.state
+   }
