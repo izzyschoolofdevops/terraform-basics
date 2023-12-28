@@ -39,3 +39,21 @@ variable "example_List" {
 output"example_List_op"{
   value = "welcome to ${var.example_List[0]} with ${var.example_List[1]} training by and ${var.example_List[3]}"
 }
+
+#declaring a map variable
+
+variable "training_map"{
+    default = {
+        batch = "b56"
+        mode  = "online"
+        trainig  ="devopswithaws"
+
+    }
+
+}
+
+#printing a map variable
+
+output "training_map_op"{
+   value ="${var.training_map["training"]}" has a great scope of opportunity and is complete "${var.training_map["mode"]} and this is our batch56${var.training_map["batch"]}"
+   }
