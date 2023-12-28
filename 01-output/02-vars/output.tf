@@ -55,5 +55,5 @@ variable "training_map"{
 #printing a map variable
 
 output "training_map_op"{
-   value ="${var.training_map["training"]}" has a great scope of opportunity and is complete "${var.training_map["mode"]} and this is our batch56${var.training_map["batch"]}"
+   value ="${var.training_map["training"]}" has a great scope of opportunity and is complete ${var.training_map["mode"]} and this is our batch56 ${var.training_map["batch"]}"
    }
