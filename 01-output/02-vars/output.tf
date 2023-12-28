@@ -78,3 +78,11 @@ output "training_map_op"{
    output "country_name"{
       value = var.country
    }
+
+   # example of the usage of shell variable
+
+   variable "coyrse" {}
+
+   output "course_op"{
+       value = var.course
+   }
