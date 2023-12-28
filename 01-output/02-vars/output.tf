@@ -16,3 +16,10 @@ output "batch-op"{
 output "batch_number"{
     value = "current batch is ${var.batch}"
 }
+variable "numerical" {
+    default = 100
+}
+
+output "numerical_op"{
+    value = var.numerical
+}
