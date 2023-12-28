@@ -36,6 +36,6 @@ variable "example_List" {
 }
 #Printing a List Variable
 
-output"example_list_op"{
-  value = "welcome to ${var.example_list[0]} with ${var.example_list[1]} training by and ${var.example_list[3]}"
+output"example_List_op"{
+  value = "welcome to ${var.example_List[0]} with ${var.example_List[1]} training by and ${var.example_List[3]}"
 }
