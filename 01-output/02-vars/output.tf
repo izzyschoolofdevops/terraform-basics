@@ -23,3 +23,19 @@ variable "numerical" {
 output "numerical_op"{
     value = var.numerical
 }
+# declaring a list variable !!! A key with multiple values is referred as List
+variable "example_List" {
+    default = [
+        "Devops",
+        "AWS_Cloud",
+        "false",
+        "Izzy",
+        56
+
+    ]
+}
+#Printing a List Variable
+
+output"example_list_op"{
+  value = "welcome to ${var.example_list[0]} with ${var.example_list[1]} training by and ${var.example_list[3]}"
+}
