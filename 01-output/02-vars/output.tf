@@ -21,5 +21,5 @@ variable "numerical" {
 }
 
 output "numerical_op"{
-    value = "var.numerical"
+    value = var.numerical
 }
